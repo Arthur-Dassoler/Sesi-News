@@ -1,15 +1,18 @@
 body {
     background-color: #F8F9FA;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
+    margin: 0;
 }
 
 header {
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #1e315e;
     width: 100%;
-    height: 17vh;
+    height: 14vh;
     top: 0px;
+    margin-top: 0px;
     position: sticky;
     margin: 0;
     z-index: 99999;
@@ -20,17 +23,50 @@ main {
     flex-direction: row;
     height: 65vh;
     margin-top: 2vh;
-    gap: 80px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
 }
 
+/* Header div */
+.divH {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+/* Main div */
 .divM {
     position: relative;
-    height: 95%;
-    width: 85vh;
-    border: 1px solid black;
-    border-radius:2dvh;
+    height: 65%;
+    width: 28%;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
+    border: 1px solid rgba(128, 128, 128, 0.405);
+    border-radius: 2dvh;
+    padding: 5%;
+    overflow: hidden;
+}
+
+.divM-img {
+    position: relative;
+    height: 98%;
+    width: 38%;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
+    border: 1px solid rgba(128, 128, 128, 0.405);
+    border-radius: 2dvh;
+    overflow: hidden;
+}
+
+.divM-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 800ms;
+}
+
+.divM-img:hover img{
+    transform: scale(1.1);
 }
 
 .flex-c {
@@ -39,11 +75,10 @@ main {
     gap: 2vh;
     flex-direction: column;
     width: 100%;
-    margin-top: 10px
+    margin-top: 30px
 }
 
 .flex-i {
-    border: 1px solid black;
     width: 65%;
     display: flex;
     flex-direction: row;
@@ -56,8 +91,9 @@ main {
     position: relative;
     height: 85%;
     width: 40%;
-    border: 1px solid black;
     margin-left: 10px;
+    border-radius: 2dvh;
+    overflow: hidden;
 }
 
 .itemB {
@@ -71,9 +107,16 @@ a {
     display: inline-block;
     margin-top: 30px;
     font-family: arial;
-    font-size:xx-large
+    font-size: xx-large;
+    color: #1e315e
 }
 
 p {
     margin-top: 40px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
