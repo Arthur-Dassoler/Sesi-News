@@ -11,10 +11,11 @@
 <body>
     <header>
         <div class="divH">
-            <img style="width: 80px; height: 80px;" src="images/profile.picture-216852208753495942.png">
+            <img class="header-img" src="images/profile.picture-216852208753495942.png">
         </div>
         <div class="divH">
-            <h1 style="margin: 0; color: white; font-family: 'Times New Roman', Times, serif; font-size: 3rem;">FOLHA DO SESI</h1>
+            <h1 style="margin: 0; color: white; font-family: 'Times New Roman', Times, serif; font-size: 3rem;">FOLHA DO
+                SESI</h1>
         </div>
         <div class="divH">
             <input style="border-radius: 1dvb; border: 0px; height: 25px" placeholder="Digite sua busca aqui">
@@ -24,10 +25,17 @@
         </div>
     </header>
     <main>
-        <div class="divM">
-            <h1><a style="font-family: Arial; font-size: 2.7rem; text-align: left;"><b>Noticia
-                        principal bem importante é loco</b></a></h1>
-            <p>como observado anterioremente o complexo golgiense aplica uma vesicula nas proteinssssssas</p>
+        <div onclick="window.location.href='noticia.html?id=1';" class="divM">
+            <div>
+                <p>Educação</p>
+            </div>
+            <h1><a href="noticia.html?id=1.html"
+                    style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-size: 2.7rem; text-align: left; color: #1e315e; margin-top: 900px;"><b>teste
+                        teste teste teste
+                        teste teste teste</b></a></h1>
+            <p class="main-p">como observado anterioremente o complexo golgiense aplica uma vesicula nas proteinssssssas
+            </p>
+            <p class="main-p">Autor: João | Data: 18/06/26</p>
         </div>
         <div class="divM-img">
             <img src="images/Captura de Tela (175).png">
@@ -39,8 +47,9 @@
                 <img src="images/Captura de Tela (185).png">
             </div>
             <div class="itemB">
-                <a><b>Cursos profissionalizantes iniciammm</b></a>
-                <p>Entretenimento</p>
+                <a class="item-link"><b>Cursos profissionalizantes iniciammm</b></a>
+                <p>• Entretenimento</p>
+                <p>• Autor: Pedro | Data: 1945</p>
             </div>
         </div>
         <div class="flex-i">
@@ -48,7 +57,7 @@
                 <img src="images/Captura de Tela (185).png">
             </div>
             <div class="itemB">
-                <a>AMOSTRA DE FOGUETES VOA LONGE</a>
+                <a class="item-link"><b>AMOSTRA DE FOGUETES VOA LONGE</b></a>
                 <p>Educação</p>
             </div>
         </div>
@@ -59,6 +68,7 @@
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

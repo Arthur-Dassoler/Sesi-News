@@ -39,13 +39,17 @@ main {
 /* Main div */
 .divM {
     position: relative;
-    height: 65%;
+    height: 69%;
     width: 28%;
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
     border: 1px solid rgba(128, 128, 128, 0.405);
     border-radius: 2dvh;
-    padding: 5%;
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .divM-img {
@@ -65,7 +69,7 @@ main {
     transition: transform 800ms;
 }
 
-.divM-img:hover img{
+.divM-img:hover img {
     transform: scale(1.1);
 }
 
@@ -89,8 +93,8 @@ main {
 
 .itemA {
     position: relative;
-    height: 85%;
-    width: 40%;
+    height: 90%;
+    width: 45%;
     margin-left: 10px;
     border-radius: 2dvh;
     overflow: hidden;
@@ -103,20 +107,78 @@ main {
     margin-right: 10px;
 }
 
-a {
+.item-link {
     display: inline-block;
     margin-top: 30px;
-    font-family: arial;
-    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.3rem;
     color: #1e315e
 }
 
-p {
-    margin-top: 40px;
+.main-p {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 img {
     width: 100%;
     height: 100%;
     z-index: 1;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-img {
+    width: 80px;
+    height: 80px;
+}
+
+.news-div {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.news-img {
+    position: relative;
+    height: 400px;
+    width: 80%;
+    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
+    border: 1px solid rgba(128, 128, 128, 0.405);
+    border-radius: 2dvh;
+    overflow: hidden;
+}
+
+.news-text {
+    margin-top: 4%;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.news-category {
+    margin: 0;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.6rem;
+}
+
+.news-title {
+    font-family: arial;
+    color: #1e315e;
+    font-size: 2.5rem;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
+.home-button {
+    width: 60px;
+    height: 50px;
+    background-color: unset;
+    border: 0px
 }
