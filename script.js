@@ -1,7 +1,6 @@
 const queryString = window.location.search
 const urlParams = new URLSearchParams(queryString);
 let id = urlParams.get("id");
-id = id.replace(".html", "");
 
 async function fetchData() {
     const response = await fetch("noticia.json");
@@ -24,4 +23,23 @@ async function fetchData() {
     });
 }
 
-fetchData()
+if (id) {
+    id = id.replace(".html", "");
+    fetchData()
+}
+
+let searchInput = document.getElementById("searchInput")
+searchInput.addEventListener("input", () => {
+    console.log("digitou")
+    const searchInputValue = searchInput.value.toLowerCase()
+    const noticias = document.querySelectorAll(".flex-i")
+    for (const noticia of noticias) {
+        if (noticia.innerText.toLowerCase().includes(searchInputValue)) {
+            noticia.style.display = "flex"
+        }
+        else {
+            noticia.style.display = "none"
+        }
+    }
+}
+)
