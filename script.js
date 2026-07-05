@@ -30,7 +30,6 @@ if (id) {
 
 let searchInput = document.getElementById("searchInput")
 searchInput.addEventListener("input", () => {
-    console.log("digitou")
     const searchInputValue = searchInput.value.toLowerCase()
     const noticias = document.querySelectorAll(".flex-i")
     for (const noticia of noticias) {
