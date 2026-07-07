@@ -2,6 +2,10 @@ const queryString = window.location.search
 const urlParams = new URLSearchParams(queryString);
 let id = urlParams.get("id");
 
+console.log(window.innerWidth);
+console.log(window.innerHeight);
+console.log(window.devicePixelRatio);
+
 async function fetchData() {
     const response = await fetch("noticia.json");
     const data = await response.json();

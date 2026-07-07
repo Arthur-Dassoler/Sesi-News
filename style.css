@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F8F9FA;
     margin: 0;
@@ -7,35 +13,41 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-direction: row;
     background-color: #1e315e;
     width: 100%;
-    height: 14vh;
-    top: 0px;
-    margin-top: 0px;
+    min-height: 90px;
+    padding: 10px 0;
     position: sticky;
-    margin: 0;
-    z-index: 99999;
+    top: 0;
+    z-index: 999;
 }
 
 .header-title {
     margin: 0;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3rem;
+    font-size: clamp(1.8rem,2.5vw,3rem);
 }
 
 .header-input {
     border-radius: 1dvb;
     border: 0px;
-    height: 25px;
+    width:100%;
+    max-width:280px;
+    flex:1;
+    height:38px;
+    padding:0 10px;
+    box-sizing:border-box;
 }
 
 .header-searchButton {
-    width: 5%;
+    width:40px;
+    height:40px;
     background-color: unset;
     border: 0px;
     padding: 0;
+    flex-shrink:0;
+    cursor:pointer;
 }
 
 .header-searchButton img {
@@ -46,20 +58,24 @@ header {
 
 main {
     display: flex;
-    flex-direction: row;
-    height: 65vh;
-    margin-top: 2vh;
-    gap: 40px;
-    align-items: center;
     justify-content: center;
+    align-items: stretch;
+    gap: clamp(20px,3vw,40px);
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1400px;
+    flex-wrap: wrap;
 }
 
 .main-link {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 3rem;
+    font-size: clamp(1.8rem,2.5vw,3rem);
     text-align: left;
     color: #1e315e;
-    margin-top: 900px;
+}
+
+header > .divH {
+    flex: 1;
 }
 
 /* Header div */
@@ -67,32 +83,31 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex: 1;
+    min-width:0;
 }
 
 /* Main div */
 .divM {
-    position: relative;
-    height: 69%;
-    width: 28%;
-    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
-    border: 1px solid rgba(128, 128, 128, 0.405);
-    border-radius: 2dvh;
-    padding-top: 4%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    overflow: hidden;
-    cursor: pointer;
+    flex: 1;
+    min-width: 0;
+
+    box-shadow: 0 2px 25px rgba(0, 0, 0, .28);
+    border: 1px solid rgba(128, 128, 128, .35);
+    border-radius: 20px;
+
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .divM-img {
-    position: relative;
-    height: 98%;
-    width: 38%;
-    box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
-    border: 1px solid rgba(128, 128, 128, 0.405);
-    border-radius: 2dvh;
+    flex: 1.2;
+
+    min-width: 0px;
+    aspect-ratio: 16 / 10;
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -101,6 +116,7 @@ main {
     height: 100%;
     object-fit: cover;
     transition: transform 800ms;
+    display:block;
 }
 
 .divM-img:hover img {
@@ -110,61 +126,65 @@ main {
 .flex-c {
     align-items: center;
     display: flex;
-    gap: 2vh;
+    gap: clamp(20px,2vw,30px);
     flex-direction: column;
     width: 100%;
     margin-top: 30px
 }
 
 .flex-i {
-    width: 65%;
     display: flex;
-    flex-direction: row;
-    height: 37vh;
+    align-items: stretch;
+
+    width: min(90%,1100px);
+    min-height: 250px;
+
     gap: 20px;
-    align-items: center;
 }
 
-.itemA {
-    position: relative;
-    height: 90%;
-    flex: 4;
-    margin-left: 10px;
-    border-radius: 2dvh;
-    overflow: hidden;
-    object-fit: cover;
-    border: 1px solid rgba(128, 128, 128, 0.405);
-    flex-shrink: 0;
+.itemA{
+
+    flex:4;
+
+    aspect-ratio:16/10;
+
+    border-radius:20px;
+    overflow:hidden;
+
+    flex-shrink:0;
 }
 
 .itemA img {
+    display:block;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.itemB {
-    position: relative;
-    height: 85%;
-    flex: 6;
-    margin-right: 10px;
+.itemB{
+
+    flex:6;
+    gap:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+
 }
 
 .item-link {
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2.3rem;
+    font-size: clamp(1.8rem,2.5vw,3rem);
     color: #1e315e;
 }
 
 .main-p {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin:1rem 0;
 }
 
 .i-p {
-    font-size: 1rem;
+    font-size: clamp(.9rem,1.2vw,1rem);
 }
 
 p {
@@ -188,7 +208,8 @@ p {
 .news-img {
     margin-top: 40px;
     position: relative;
-    height: 400px;
+    width:80%;
+    aspect-ratio:16/9;
     width: 80%;
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.281);
     border: 1px solid rgba(128, 128, 128, 0.405);
@@ -224,7 +245,7 @@ p {
 .news-title {
     font-family: arial;
     color: #1e315e;
-    font-size: 3.5rem;
+    font-size: clamp(1.8rem,2.5vw,3rem);
     margin-left: 10%;
     margin-bottom: 1%;
 }
@@ -242,208 +263,205 @@ p {
     border: 0px
 }
 
-/* Media queries */
-@media (max-width: 769px) {
-    main {
-        flex-direction: column;
-        height: 75vh;
-        margin-top: 3vh;
-        gap: 10px;
+/* Media Queries */
+@media (max-width:1100px){
+
+    main{
+        flex-direction:column;
+        width:95%;
     }
 
-    .divM {
-        height: 80%;
-        width: 70%;
+    .divM,
+    .divM-img{
+        width:100%;
     }
 
-    .divM-img {
-        height: 98%;
-        width: 80%;
+    .divM-img{
+        aspect-ratio:16/9;
+        order:1;
     }
 
-    .main-link {
-        font-size: 3.1rem;
+    .divM{
+        order:2;
     }
 
-    .header-title {
-        font-size: 2.9rem;
+    .main-link{
+        font-size:2.3rem;
     }
 
-    .flex-i {
-        width: 90%;
-        height: 28vh;
+    .flex-i{
+        width:95%;
     }
 
-    .itemA {
-        flex: 4.7;
-        width: 30%;
-        height: 80%;
+    .item-link{
+        font-size:2rem;
     }
 
-    .itemB {
-        align-self: flex-start;
-        flex: 5.3;
-        height: 70%;
+    .news-div{
+        width:80%;
     }
 
-    .flex-c {
-        align-items: center;
-        display: flex;
-        gap: 0;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 0px
+    .news-img{
+        width:100%;
     }
 
-    .news-div {
-        width: 80%;
+    .news-text{
+        width:100%;
     }
+
+    .news-title,
+    .news-info{
+        margin-left:0;
+    }
+
 }
 
-@media (max-width: 801px) {
-    main {
-        flex-direction: column;
-        height: 75vh;
-        margin-top: 3vh;
-        gap: 10px;
+@media (max-width:768px){
+
+    header{
+        padding:15px;
+        gap:15px;
+        flex-wrap:wrap;
     }
 
-    .divM {
-        height: 80%;
-        width: 70%;
+    .header-title{
+        font-size:2rem;
+    }
+
+    .header-img{
+        width:60px;
+        height:60px;
+    }
+
+    .header-input{
+        display:none;
+    }
+
+    .header-searchButton{
+        width:45px;
+        height:45px;
+    }
+
+    .divM{
+        order: 2;
+        padding:20px;
     }
 
     .divM-img {
-        height: 98%;
-        width: 80%;
+        order: 1;
     }
 
-    .main-link {
-        font-size: 4rem;
+    .main-link{
+        font-size:1.7rem;
     }
 
-    .header-title {
-        font-size: 3rem;
+    .flex-i{
+        flex-direction:column;
+        width:95%;
+        min-height:auto;
     }
 
-    .flex-i {
-        width: 90%;
-        height: 21vh;
+    .itemA{
+        width:100%;
     }
 
-    .itemA {
-        flex: 4.7;
-        width: 30%;
-        height: 80%;
+    .itemB{
+        width:100%;
+        padding:10px 0;
     }
 
-    .itemB {
-        align-self: flex-start;
-        flex: 5.3;
-        height: 70%;
+    .item-link{
+        font-size:1.5rem;
     }
 
-    .flex-c {
-        align-items: center;
-        display: flex;
-        gap: 0;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 0px
+    .news-category{
+        font-size:1.8rem;
     }
 
-    .news-div {
-        width: 84%;
+    .home-button{
+        width:45px;
+        height:45px;
     }
 
-    .header-img {
-        width: 100px;
-        height: 100px;
+    .news-div{
+        width:92%;
+        margin-top:25px;
     }
 
-    .main-p {
-        font-size: 1.2rem;
+    .news-title{
+        font-size:2rem;
+        margin-left:0;
     }
+
+    .news-info{
+        margin-left:0;
+        margin-bottom:15px;
+    }
+
+    .news-img{
+        width:100%;
+        margin-top:20px;
+    }
+
+    .news-text{
+        width:100%;
+        font-size:1rem;
+        line-height:1.6;
+    }
+
 }
 
-@media (max-width: 361px) {
-    main {
-        flex-direction: column;
-        height: 75vh;
-        margin-top: 0;
-        gap: 10px;
+@media (max-width:480px){
+
+    .header-title{
+        font-size:1.2rem;
     }
 
-    .divM {
-        height: 35%;
-        width: 70%;
+    .header-img{
+        width:45px;
+        height:45px;
+    }
+
+    .main-link{
+        font-size:1.4rem;
+    }
+
+    .item-link{
+        font-size:1.2rem;
+    }
+
+    .main-p,
+    .i-p{
+        font-size:.9rem;
+    }
+
+    .divM{
+        order: 2;
+        padding:15px;
     }
 
     .divM-img {
-        height: 40%;
-        width: 80%;
+        order: 1;
     }
 
-    .main-link {
-        font-size: 0.7rem;
+    .news-category{
+        font-size:1.3rem;
     }
 
-    .header-title {
-        font-size: 1.3rem;
+    .home-button{
+        width:35px;
+        height:35px;
     }
 
-    .flex-i {
-        width: 90%;
-        height: 21vh;
+    .news-title{
+        font-size:1.5rem;
     }
 
-    .itemA {
-        flex: 4.7;
-        width: 30%;
-        height: 80%;
+    .news-info{
+        font-size:.9rem;
     }
 
-    .itemB {
-        align-self: flex-start;
-        flex: 5.3;
-        height: 70%;
-    }
-
-    .item-link {
-        font-size: 1rem;
-    }
-
-    .flex-c {
-        align-items: center;
-        display: flex;
-        gap: 0;
-        flex-direction: column;
-        width: 100%;
-        margin-top: 0px
-    }
-
-    .news-div {
-        width: 84%;
-    }
-
-    .header-img {
-        width: 50px;
-        height: 50px;
-    }
-
-    .main-p {
-        font-size: 0.7rem;
-    }
-
-    .header-input {
-        display: none;
-    }
-
-    .header-searchButton {
-        width: 40%
-    }
-
-    .i-p {
-        font-size: 0.7rem;
+    .news-text{
+        font-size:.95rem;
     }
 }
