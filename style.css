@@ -40,6 +40,18 @@ header {
     box-sizing:border-box;
 }
 
+.mobileSearch-input {
+    margin-top: 10px;
+    border-radius: 1dvb;
+    border: 0px;
+    width:100%;
+    flex:1;
+    height:38px;
+    padding:0 10px;
+    box-sizing:border-box;
+    border: 1px solid rgba(128, 128, 128, .35);
+}
+
 .header-searchButton {
     width:40px;
     height:40px;
@@ -427,7 +439,7 @@ p {
     }
 
     .item-link{
-        font-size:1.2rem;
+        font-size:1.4rem;
     }
 
     .main-p,

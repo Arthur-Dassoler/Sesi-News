@@ -32,17 +32,41 @@ if (id) {
     fetchData()
 }
 
-let searchInput = document.getElementById("searchInput")
-searchInput.addEventListener("input", () => {
-    const searchInputValue = searchInput.value.toLowerCase()
-    const noticias = document.querySelectorAll(".flex-i")
-    for (const noticia of noticias) {
-        if (noticia.innerText.toLowerCase().includes(searchInputValue)) {
-            noticia.style.display = "flex"
+const searchInput = document.getElementById("searchInput");
+
+if (searchInput) {
+
+    searchInput.addEventListener("input", () => {
+
+        const searchInputValue = searchInput.value.toLowerCase();
+        const noticias = document.querySelectorAll(".flex-i");
+
+        for (const noticia of noticias) {
+
+            if (searchInputValue === "") {
+                noticia.style.display = showAll ? "flex" : "none";
+                continue;
+            }
+
+            if (noticia.innerText.toLowerCase().includes(searchInputValue)) {
+                noticia.style.display = "flex";
+            } else {
+                noticia.style.display = "none";
+            }
         }
-        else {
-            noticia.style.display = "none"
-        }
-    }
+
+    });
+    searchInput.focus();
 }
-)
+
+const searchButton = document.querySelector(".header-searchButton");
+
+if (searchButton) {
+    searchButton.addEventListener("click", () => {
+
+        if (window.innerWidth <= 768) {
+            window.location.href = "pesquisaMobile.html";
+        }
+
+    });
+}

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jornal-SESI</title>
+    <title>Aba de pesquisa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/profile.picture-216852208753495942.png" type="imaage/x-icon">
 </head>
@@ -15,33 +15,15 @@
             <img class="header-img" src="images/profile.picture-216852208753495942.png">
         </div>
         <div class="divH">
-            <h1 class="header-title">
-                SESI-NEWS
-            </h1>
+            <h1 class="header-title">SESI-NEWS</h1>
         </div>
         <div class="divH">
-            <input class="header-input" placeholder="Digite sua busca aqui" id="searchInput">
-            <button class="header-searchButton">
-                <img style="width: 100%; height: 100%;" src="images/lupa-removebg-preview.png">
+            <button onclick="window.location.href='index.html';" id="buttonHome" class="home-button">
+                <img style="width: 100%; height: 100%;" src="images/housew-removebg-preview.png">
             </button>
         </div>
     </header>
-    <main>
-        <div class="divM">
-            <div>
-                <p class="main-p">Educação</p>
-            </div>
-            <h1><a class="main-link" href="noticia.html?id=1"><b>teste
-                        te sadas adsdas sdadja sada dhhhhhda as </b></a></h1>
-            <p class="main-p">como observado anterioremente o complexo golgiense aplica uma
-                vesicu
-            </p>
-            <p class="main-p">Autor: João | Data: 18/06/26</p>
-        </div>
-        <div class="divM-img">
-            <img src="images/Captura de Tela (185).png">
-        </div>
-    </main>
+    <input placeholder="O que você procura?" class="mobileSearch-input" id="searchInput">
     <div class="flex-c">
         <div class="flex-i">
             <div class="itemA">
@@ -64,6 +46,9 @@
             </div>
         </div>
     </div>
+    <script>
+        const showAll = false
+    </script>
     <script src="script.js"></script>
 </body>
 
