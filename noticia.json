@@ -1,94 +1,43 @@
 [
-{
-    "id": 1,
-    "categoria": "EDUCAÇÃO",
-    "titulo": "teste para ver se ta funcionando ahoba",
-    "informacoes": "Autor: Pablo Augusto Debastiani Wathier | Data: 19/05/28",
-    "imagem": "images/lupa.jpg",
-    "conteudo": [
-        "Na manhã da penúltima quarta-feira, 3 de junho, o Centro Comercial Andrômeda foi onde a segunda fase interna do campeonato de oratória do SESI-SENAI SMO ocorreu, reunindo os estudantes de maior destaque de cada turma em uma competição marcada pela comunicação, argumentação e desenvoltura diante do público.",
-        " ",
-        "Ao todo, 31 alunos participaram da etapa, apresentando discursos preparados para demonstrar suas habilidades de expressão oral, organização de ideias e capacidades comunicativas. As oratórias são avaliadas na metodologia da JCI (Junior Chamber International), valorizando o protagonismo juvenil e o desenvolvimento da liderança por meio da fala em público.",
-        "Os participantes foram selecionados por seu desempenho e destaque ao longo do período letivo. Durante a programação, familiares, colegas, professores e avaliadores acompanharam atentamente as apresentações, que evidenciaram o talento e a dedicação dos estudantes envolvidos.",
-        "Ao final da competição, a estudante Camily Domingues, da turma 2025 M1, conquistou o primeiro lugar na fase interna e garantiu sua classificação para a próxima etapa do campeonato - agora indo sozinha para representar a escola SESI-SENAI no âmbito da oratória, um destaque da escola nos anos anteriores. Entretanto, outras posições de destaque ainda ganharam outros prêmios, como um vale para ser usado na cantina da unidade local!"
-    ]
-},
-
-{
-    "id": 2,
-    "categoria": "CULTURA",
-    "titulo": "teste para ver se ta funcionando ahoba",
-    "informacoes": "Autor: Pablo Augusto Debastiani Wathier | Data: 19/05/28",
-    "imagem": "images/lupa.jpg",
-    "conteudo": [
-        "Na manhã da penúltima quarta-feira, 3 de junho, o Centro Comercial Andrômeda foi onde a segunda fase interna do campeonato de oratória do SESI-SENAI SMO ocorreu, reunindo os estudantes de maior destaque de cada turma em uma competição marcada pela comunicação, argumentação e desenvoltura diante do público.",
-        " ",
-        "Ao todo, 31 alunos participaram da etapa, apresentando discursos preparados para demonstrar suas habilidades de expressão oral, organização de ideias e capacidades comunicativas. As oratórias são avaliadas na metodologia da JCI (Junior Chamber International), valorizando o protagonismo juvenil e o desenvolvimento da liderança por meio da fala em público.",
-        "Os participantes foram selecionados por seu desempenho e destaque ao longo do período letivo. Durante a programação, familiares, colegas, professores e avaliadores acompanharam atentamente as apresentações, que evidenciaram o talento e a dedicação dos estudantes envolvidos.",
-        "Ao final da competição, a estudante Camily Domingues, da turma 2025 M1, conquistou o primeiro lugar na fase interna e garantiu sua classificação para a próxima etapa do campeonato - agora indo sozinha para representar a escola SESI-SENAI no âmbito da oratória, um destaque da escola nos anos anteriores. Entretanto, outras posições de destaque ainda ganharam outros prêmios, como um vale para ser usado na cantina da unidade local!"
-    ]
-},
-
-{
-    "id": 3,
-    "categoria": "ENTRETENIMENTO",
-    "titulo": "teste para ver se ta funcionando ahoba",
-    "informacoes": "Autor: Pablo Augusto Debastiani Wathier | Data: 19/05/28",
-    "imagem": "images/lupa.jpg",
-    "conteudo": [
-        "Na manhã da penúltima quarta-feira, 3 de junho, o Centro Comercial Andrômeda foi onde a segunda fase interna do campeonato de oratória do SESI-SENAI SMO ocorreu, reunindo os estudantes de maior destaque de cada turma em uma competição marcada pela comunicação, argumentação e desenvoltura diante do público.",
-        " ",
-        "Ao todo, 31 alunos participaram da etapa, apresentando discursos preparados para demonstrar suas habilidades de expressão oral, organização de ideias e capacidades comunicativas. As oratórias são avaliadas na metodologia da JCI (Junior Chamber International), valorizando o protagonismo juvenil e o desenvolvimento da liderança por meio da fala em público.",
-        "Os participantes foram selecionados por seu desempenho e destaque ao longo do período letivo. Durante a programação, familiares, colegas, professores e avaliadores acompanharam atentamente as apresentações, que evidenciaram o talento e a dedicação dos estudantes envolvidos.",
-        "Ao final da competição, a estudante Camily Domingues, da turma 2025 M1, conquistou o primeiro lugar na fase interna e garantiu sua classificação para a próxima etapa do campeonato - agora indo sozinha para representar a escola SESI-SENAI no âmbito da oratória, um destaque da escola nos anos anteriores. Entretanto, outras posições de destaque ainda ganharam outros prêmios, como um vale para ser usado na cantina da unidade local!"
-    ]
-},
-
-{
-    "id": 4,
-    "categoria": "EDUCAÇÃO",
-    "titulo": "teste para ver se ta funcionando ahoba",
-    "informacoes": "Autor: Pablo Augusto Debastiani Wathier | Data: 19/05/28",
-    "imagem": "images/lupa.jpg",
-    "conteudo": [
-        "Na manhã da penúltima quarta-feira, 3 de junho, o Centro Comercial Andrômeda foi onde a segunda fase interna do campeonato de oratória do SESI-SENAI SMO ocorreu, reunindo os estudantes de maior destaque de cada turma em uma competição marcada pela comunicação, argumentação e desenvoltura diante do público.",
-        " ",
-        "Ao todo, 31 alunos participaram da etapa, apresentando discursos preparados para demonstrar suas habilidades de expressão oral, organização de ideias e capacidades comunicativas. As oratórias são avaliadas na metodologia da JCI (Junior Chamber International), valorizando o protagonismo juvenil e o desenvolvimento da liderança por meio da fala em público.",
-        "Os participantes foram selecionados por seu desempenho e destaque ao longo do período letivo. Durante a programação, familiares, colegas, professores e avaliadores acompanharam atentamente as apresentações, que evidenciaram o talento e a dedicação dos estudantes envolvidos.",
-        "Ao final da competição, a estudante Camily Domingues, da turma 2025 M1, conquistou o primeiro lugar na fase interna e garantiu sua classificação para a próxima etapa do campeonato - agora indo sozinha para representar a escola SESI-SENAI no âmbito da oratória, um destaque da escola nos anos anteriores. Entretanto, outras posições de destaque ainda ganharam outros prêmios, como um vale para ser usado na cantina da unidade local!"
-    ]
-},
-
-{
-    "id": 5,
-    "categoria": "EDUCAÇÃO",
-    "titulo": "teste para ver se ta funcionando ahoba",
-    "informacoes": "Autor: Pablo Augusto Debastiani Wathier | Data: 19/05/28",
-    "imagem": "images/lupa.jpg",
-    "conteudo": [
-        "Na manhã da penúltima quarta-feira, 3 de junho, o Centro Comercial Andrômeda foi onde a segunda fase interna do campeonato de oratória do SESI-SENAI SMO ocorreu, reunindo os estudantes de maior destaque de cada turma em uma competição marcada pela comunicação, argumentação e desenvoltura diante do público.",
-        " ",
-        "Ao todo, 31 alunos participaram da etapa, apresentando discursos preparados para demonstrar suas habilidades de expressão oral, organização de ideias e capacidades comunicativas. As oratórias são avaliadas na metodologia da JCI (Junior Chamber International), valorizando o protagonismo juvenil e o desenvolvimento da liderança por meio da fala em público.",
-        "Os participantes foram selecionados por seu desempenho e destaque ao longo do período letivo. Durante a programação, familiares, colegas, professores e avaliadores acompanharam atentamente as apresentações, que evidenciaram o talento e a dedicação dos estudantes envolvidos.",
-        "Ao final da competição, a estudante Camily Domingues, da turma 2025 M1, conquistou o primeiro lugar na fase interna e garantiu sua classificação para a próxima etapa do campeonato - agora indo sozinha para representar a escola SESI-SENAI no âmbito da oratória, um destaque da escola nos anos anteriores. Entretanto, outras posições de destaque ainda ganharam outros prêmios, como um vale para ser usado na cantina da unidade local!"
-    ]
-},
-
-{
-    "id": 6,
-    "categoria": "EDUCAÇÃO",
-    "titulo": "teste para ver se ta funcionando ahoba",
-    "informacoes": "Autor: Pablo Augusto Debastiani Wathier | Data: 19/05/28",
-    "imagem": "images/lupa.jpg",
-    "conteudo": [
-        "Na manhã da penúltima quarta-feira, 3 de junho, o Centro Comercial Andrômeda foi onde a segunda fase interna do campeonato de oratória do SESI-SENAI SMO ocorreu, reunindo os estudantes de maior destaque de cada turma em uma competição marcada pela comunicação, argumentação e desenvoltura diante do público.",
-        " ",
-        "Ao todo, 31 alunos participaram da etapa, apresentando discursos preparados para demonstrar suas habilidades de expressão oral, organização de ideias e capacidades comunicativas. As oratórias são avaliadas na metodologia da JCI (Junior Chamber International), valorizando o protagonismo juvenil e o desenvolvimento da liderança por meio da fala em público.",
-        "Os participantes foram selecionados por seu desempenho e destaque ao longo do período letivo. Durante a programação, familiares, colegas, professores e avaliadores acompanharam atentamente as apresentações, que evidenciaram o talento e a dedicação dos estudantes envolvidos.",
-        "Ao final da competição, a estudante Camily Domingues, da turma 2025 M1, conquistou o primeiro lugar na fase interna e garantiu sua classificação para a próxima etapa do campeonato - agora indo sozinha para representar a escola SESI-SENAI no âmbito da oratória, um destaque da escola nos anos anteriores. Entretanto, outras posições de destaque ainda ganharam outros prêmios, como um vale para ser usado na cantina da unidade local!"
-    ]
-}
-
-
-
+    {
+        "id": 1,
+        "categoria": "CATEGORY",
+        "titulo": "News title",
+        "informacoes": "Author | Date | Source",
+        "imagem": "images/imageSelected.png",
+        "conteudo": [
+            "News content:",
+            "Lorem ipsum dolor sit amet. Est voluptatem omnis est vero officia aut adipisci reiciendis id voluptatum optio quo consequatur soluta aut minima internos et voluptatem harum. Eos sunt assumenda et incidunt itaque a ipsa quas eos assumenda explicabo.",
+            "Est ratione earum sit beatae quasi et libero iusto nam itaque molestiae. Eum eveniet iusto quo cupiditate sapiente ab nesciunt quae! Ut laborum iusto et quia beatae sit voluptatum ullam quo nemo eaque!",
+            "In voluptatibus blanditiis et doloribus galisum non voluptatem blanditiis. Vel fugit dolores qui excepturi voluptatibus est quam asperiores et quos dolore! Ut consequatur perferendis ut velit nihil et corporis perspiciatis est molestias dignissimos aut veritatis rerum ea vero repellat et deserunt Quis."
+        ]
+    },
+    {
+        "id": 2,
+        "categoria": "CATEGORY",
+        "titulo": "News title",
+        "informacoes": "Author | Date | Source",
+        "imagem": "images/imageSelected.png",
+        "conteudo": [
+            "News content:",
+            "Lorem ipsum dolor sit amet. Est voluptatem omnis est vero officia aut adipisci reiciendis id voluptatum optio quo consequatur soluta aut minima internos et voluptatem harum. Eos sunt assumenda et incidunt itaque a ipsa quas eos assumenda explicabo.",
+            "Est ratione earum sit beatae quasi et libero iusto nam itaque molestiae. Eum eveniet iusto quo cupiditate sapiente ab nesciunt quae! Ut laborum iusto et quia beatae sit voluptatum ullam quo nemo eaque!",
+            "In voluptatibus blanditiis et doloribus galisum non voluptatem blanditiis. Vel fugit dolores qui excepturi voluptatibus est quam asperiores et quos dolore! Ut consequatur perferendis ut velit nihil et corporis perspiciatis est molestias dignissimos aut veritatis rerum ea vero repellat et deserunt Quis."
+        ]
+    },
+    {
+        "id": 3,
+        "categoria": "CATEGORY",
+        "titulo": "News title",
+        "informacoes": "Author | Date | Source",
+        "imagem": "images/imageSelected.png",
+        "conteudo": [
+            "News content:",
+            "Lorem ipsum dolor sit amet. Est voluptatem omnis est vero officia aut adipisci reiciendis id voluptatum optio quo consequatur soluta aut minima internos et voluptatem harum. Eos sunt assumenda et incidunt itaque a ipsa quas eos assumenda explicabo.",
+            "Est ratione earum sit beatae quasi et libero iusto nam itaque molestiae. Eum eveniet iusto quo cupiditate sapiente ab nesciunt quae! Ut laborum iusto et quia beatae sit voluptatum ullam quo nemo eaque!",
+            "In voluptatibus blanditiis et doloribus galisum non voluptatem blanditiis. Vel fugit dolores qui excepturi voluptatibus est quam asperiores et quos dolore! Ut consequatur perferendis ut velit nihil et corporis perspiciatis est molestias dignissimos aut veritatis rerum ea vero repellat et deserunt Quis."
+        ]
+    }
+    
+    
 ]

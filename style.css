@@ -258,14 +258,19 @@ p {
     font-family: arial;
     color: #1e315e;
     font-size: clamp(1.8rem,2.5vw,3rem);
-    margin-left: 10%;
     margin-bottom: 1%;
+    align-items: center;
 }
 
 .news-info {
     margin-right: auto;
     margin-left: 10%;
     margin-bottom: 5px;
+}
+
+.news-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 .home-button {
